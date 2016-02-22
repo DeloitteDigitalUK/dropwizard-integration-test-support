@@ -1,5 +1,7 @@
 # Integration Test Support
 
+[![Circle CI](https://circleci.com/gh/DeloitteDigitalUK/dropwizard-integration-test-support.svg?style=svg)](https://circleci.com/gh/DeloitteDigitalUK/dropwizard-integration-test-support)
+
 This module provides some extra utility functions that are helpful on top of the standard `dropwizard-testing` library.
 
 ## License
