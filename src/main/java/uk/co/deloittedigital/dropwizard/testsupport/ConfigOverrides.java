@@ -28,7 +28,7 @@ import java.net.ServerSocket;
  * Use with the DropwizardAppRule as follows:
  * <code>
  *     {@literal @}ClassRule
- *     public static final DropwizardAppRule<TestConfiguration> APP = new DropwizardAppRule<>(TestApp.class,
+ *     public static final DropwizardAppRule&lt;TestConfiguration&gt; APP = new DropwizardAppRule&lt;&gt;(TestApp.class,
  *             ResourceHelpers.resourceFilePath("integration-test-config.yml"),
  *             ConfigOverrides.randomLocalPort(),
  *             ConfigOverrides.randomAdminPort());
